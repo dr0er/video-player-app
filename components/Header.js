@@ -1,7 +1,21 @@
+import {
+  BadgeCheckIcon,
+  CollectionIcon,
+  HomeIcon,
+  LightningBoltIcon,
+  SearchIcon,
+  UserIcon,
+} from "@heroicons/react/outline";
+
+import HeaderItem from "./HeaderItem";
+
 function Header() {
   return (
     <header className="">
-      <h1>This is the header</h1>
+      <div>
+        <HeaderItem title="HOME" Icon={HomeIcon} />
+      </div>
+      <h1 className="object-contain">DROFLIX</h1>
     </header>
   );
 }
