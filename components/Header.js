@@ -20,7 +20,9 @@ function Header() {
         <HeaderItem title="SECTIONS" Icon={SearchIcon} />
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
-      <h1 className="object-contain font-bold text-5xl pb-6">DROFLIX</h1>
+      <h1 className="object-contain font-bold text-5xl pb-6 xl:mr-10">
+        DROFLIX
+      </h1>
     </header>
   );
 }
